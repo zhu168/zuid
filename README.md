@@ -1,6 +1,6 @@
-#Zuid
+#zuid
 
-Zuid is a unique id generator, and the generated result is a sortable 16byte array or 32byte string.
+zuid is a unique id generator, and the generated result is a sortable 16byte array or 32byte string.
 
 The implementation feature is that the first 8byte is the Snowflake algorithm, and the last 8byte is the last 8byte of the uuid.
 The advantage of this algorithm is that it has most of the advantages of Snowflake, especially it is relatively friendly to the database primary key index, and obtains a certain security of uuid, while limiting the length, and is easy to implement and transplant.
